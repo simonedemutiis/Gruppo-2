@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>CALCOLATRICE</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="calcolatrice">
+      <form name="form">
+        <input class="display" type="text" name="display" value="" />
+        <table id="calc">
+          <div class="riga1">
+            <tr>
+              <td>
+                <input
+                  id="r1"
+                  type="button"
+                  value="+"
+                  onclick="aggiungi('+')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r1"
+                  type="button"
+                  value="-"
+                  onclick="aggiungi('-')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r1"
+                  type="button"
+                  value="x"
+                  onclick="aggiungi('*')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r1"
+                  type="button"
+                  value="/"
+                  onclick="aggiungi('/')"
+                />
+              </td>
+            </tr>
+          </div>
+          <div class="riga2">
+            <tr>
+              <td>
+                <input
+                  id="r2"
+                  type="button"
+                  value="7"
+                  onclick="aggiungi('7')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r2"
+                  type="button"
+                  value="8"
+                  onclick="aggiungi('8')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r2"
+                  type="button"
+                  value="9"
+                  onclick="aggiungi('9')"
+                />
+              </td>
+              <td rowspan="4">
+                <input
+                  id="uguale"
+                  type="button"
+                  value="="
+                  onclick="result('=')"
+                />
+              </td>
+            </tr>
+          </div>
+          <div class="riga3">
+            <tr>
+              <td>
+                <input
+                  id="r3"
+                  type="button"
+                  value="4"
+                  onclick="aggiungi('4')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r3"
+                  type="button"
+                  value="5"
+                  onclick="aggiungi('5')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r3"
+                  type="button"
+                  value="6"
+                  onclick="aggiungi('6')"
+                />
+              </td>
+            </tr>
+          </div>
+          <div class="riga4">
+            <tr>
+              <td>
+                <input
+                  id="r4"
+                  type="button"
+                  value="1"
+                  onclick="aggiungi('1')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r4"
+                  type="button"
+                  value="2"
+                  onclick="aggiungi('2')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r4"
+                  type="button"
+                  value="3"
+                  onclick="aggiungi('3')"
+                />
+              </td>
+            </tr>
+          </div>
+          <div class="riga5">
+            <tr>
+              <td>
+                <input
+                  id="r5"
+                  type="button"
+                  value="0"
+                  onclick="aggiungi('0')"
+                />
+              </td>
+              <td>
+                <input
+                  id="r5"
+                  type="button"
+                  value=","
+                  onclick="aggiungi('.')"
+                />
+              </td>
+              <td>
+                <input id="r5" type="button" value="C" onclick="cancella()" />
+              </td>
+            </tr>
+          </div>
+        </table>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

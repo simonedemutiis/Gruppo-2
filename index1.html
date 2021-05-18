@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      id="input"
+      type="number"
+      min="1"
+      max="9"
+      onKeyPress="if(this.value.length==1) return false;"
+    />
+    <button id="crea" onclick="onSend()">Crea</button>
+    <button id="distruggi">Distruggi</button>
+    <script src="richiesta.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin-top: 150px;
+}
+.riga1 {
+  margin-top: 10px;
+}
+.display {
+  width: 326px;
+}
+#calc {
+  background-color: white;
+}
+input {
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+}
+#uguale {
+  height: 170px;
+  color: white;
+  background: rgb(45, 45, 218);
+}
+#uguale:hover {
+  background: rgb(23, 142, 240);
+}
+#r2,
+#r3,
+#r4,
+#r5 {
+  background: white;
+}
+#r2:hover,
+#r3:hover,
+#r4:hover,
+#r5:hover {
+  background: lime;
+}
+
+#r1:hover {
+  background: salmon;
+}
+
+#passw,
+#username {
+  width: 200px;
+  height: 20px;
+}
+
+#check {
+  height: 20px;
+  width: 20px;
+}
+.container {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+#entra {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
